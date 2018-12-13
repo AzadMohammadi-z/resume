@@ -1,0 +1,54 @@
+.titleskill {
+    margin-right: 800px;
+}
+h1 {
+    font-size: 75px !important;
+    color: aliceblue;
+}
+.cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 110px;
+    height: 110px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 200px;
+    width: 120px;
+    background-color: azure;
+    margin: 10px;
+
+    box-shadow: 0 1px 3px rgb(39, 36, 36), 0 1px 2px rgb(27, 26, 26);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.card:hover {
+    box-shadow: 0 14px 28px black, 0 10px 10px rgb(52, 52, 65);
+}
+
+.image-wrapper {
+    width: 110px;
+    height: 90px;
+    text-align: center;
+    padding: 5px;
+}
+
+.skill-title-wrapper {
+    padding: 5px;
+    height: 100px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+}
+h3 {
+    font-size: 28px !important;
+}

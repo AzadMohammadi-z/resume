@@ -1,0 +1,10 @@
+.scroll {
+    position: fixed;
+    bottom: 10px;
+    margin-left: 30px;
+}
+.scroll:hover {
+    transform: scale(
+        1
+    ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

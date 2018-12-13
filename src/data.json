@@ -1,0 +1,76 @@
+{
+    "image": "images/img.jpg",
+    "title": "Hello, I'm Azad !",
+    "subtitle": "IT Eπgiπeer  | University of ilam | Website Programmer ",
+    "links": {
+        "instagram": "https://www.instagram.com/azad_mohamadi.z/",
+        "github": "https://github.com/AzadMohammadi-z",
+        "telegram": "https://t.me/azad_mohamadi_z"
+    },
+    "sections": [
+        {
+            "title": "About",
+            "items": [
+                {
+                    "type": "p",
+                    "content": "My full name is Azad Mohammadizadeh. ",
+                    "content1": "I like JavaScript and everything web.",
+                    "content2": "When my dev senses kick-in I build presumably awesome stuff. I stay close to the community and try to keep tabs with the pace at which the web is evolving. I also like to blog what I learn.",
+                    "content3": "I built this site from scratch. By scratch, I mean absolutely from scratch without any UI library/framework (except React though) and had so much fun along the way.",
+                    "content4": "React , React Redux , React Native , PHP , Java Script , CSS and HTML are the main tricks up my sleeve. I am also obsessed with making the web look pretty with SASS/CSS."
+                }
+            ]
+        },
+        {
+            "title": "Skills",
+            "items": [
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/react.png",
+                        "title": "React"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/react-native.png",
+                        "title": "React Native"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/php.png",
+                        "title": "PHP"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/java-script.png",
+                        "title": "Javascript"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/css.png",
+                        "title": "CSS"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/html.png",
+                        "title": "HTML"
+                    }
+                }
+            ]
+        }
+    ],
+    "icons": {
+        "down": "images/down.png",
+        "top": "images/top.png"
+    }
+}

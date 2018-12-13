@@ -1,0 +1,36 @@
+h1 {
+    font-size: 50px !important;
+}
+.first {
+    color: aliceblue;
+}
+.icons-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.myimg {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.icon {
+    margin: 10px;
+    margin-top: 10px;
+}
+
+.imgdown {
+    max-width: 40px;
+    width: 40px !important;
+    height: 40px !important;
+    margin-top: 10px;
+}
+.imgdown:hover {
+    transform: scale(
+        1.6
+    ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.title {
+    cursor: pointer;
+}

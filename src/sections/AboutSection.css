@@ -1,0 +1,27 @@
+.titleabout {
+    margin-right: 800px;
+}
+h1 {
+    font-size: 70px;
+}
+
+p {
+    padding-right: 55px !important;
+    padding-left: 55px !important;
+    color: aliceblue !important;
+}
+.imgdown1 {
+    max-width: 40px;
+    width: 40px !important;
+    height: 40px !important;
+    margin-top: 10px;
+}
+.imgdown1:hover {
+    transform: scale(
+        1.2
+    ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.moreabout {
+    margin-right: 150px;
+    margin-left: 150px;
+}
