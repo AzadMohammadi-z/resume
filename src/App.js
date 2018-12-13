@@ -20,7 +20,7 @@ class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            backgroundcolor: '#6610f2'
+            backgroundcolor: 'rgb(31, 31, 88)'
         };
         this.handleChangeColor = this.handleChangeColor.bind(this);
     }
